@@ -12,26 +12,12 @@
       </tr>
   </thead>
   <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Harry Potter e a Pedra Filosofal</td>
-        <td>J.K. Rowling</td>
-        <td>223</td>
-        <td>26/06/1997</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Game of Thrones</td>
-        <td>George R.R. Martin</td>
-        <td>694</td>
-        <td>01/08/1996</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>A Sociedade do Anel</td>
-        <td>J.R.R. Tolkien</td>
-        <td>423</td>
-        <td>29/07/1954</td>
+      <tr *ngFor ="let p of livros" >
+        <th scope="row">{{p.id}}</th>
+        <td>{{p.titulo}}</td>
+        <td>{{p.autor}}</td>
+        <td>{{p.qtdpagina}}</td>
+        <td>{{p.dtapublic}}</td>
       </tr>
   </tbody>
 </table>

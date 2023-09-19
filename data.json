@@ -1,0 +1,7 @@
+{
+  "books":[
+    {"id": 1,"titulo":"Harry Potter e a Pedra Filosofal","autor":"J.K. Rowling","qtdpagina":223,"dtapublic":26061997},
+    {"id": 2,"titulo":"Game of Thrones","autor":"George R.R. Martin","qtdpagina":694,"dtapublic":1081996},
+    {"id": 3,"titulo":"A Sociedade do Anel","autor":"J.R.R. Tolkien","qtdpagina":423,"dtapublic":29071954}
+  ]
+}
